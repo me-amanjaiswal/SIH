@@ -22,7 +22,7 @@ router.get("/About",function(req, res){
   res.sendFile(path + "about.html");
 });
 router.get("/Donate",function(req, res){
-  res.sendFile(path + "donsell.html");
+  res.sendFile(path + "donate.html");
 });
 router.get("/Sell",function(req, res){
   res.sendFile(path + "donsell.html");
