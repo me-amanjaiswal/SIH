@@ -27,6 +27,9 @@ router.get("/Donate",function(req, res){
 router.get("/Sell",function(req, res){
   res.sendFile(path + "donsell.html");
 });
+router.get("/contact",function(req, res){
+  res.sendFile(path + "contact.html");
+});
 
 
 
